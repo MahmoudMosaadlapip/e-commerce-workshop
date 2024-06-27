@@ -1,0 +1,503 @@
+.hdr-container{
+    margin-top: 50px;
+    position: relative;
+}
+
+.left-rightpics{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-rightpics img{
+    border-radius: 10px;
+}
+
+.page-hdr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.page-hdr h2{
+    font-size: 91px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #484848;
+    position: absolute;
+    top: 0;
+}
+
+.page-hdr h3{
+    font-size: 187px;
+    position: absolute;
+    top: 70px;
+    font-weight: 400;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.644);
+}
+
+.page-hdr h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.shop-btn{
+    background: black;
+    outline: none;
+    border: 2px;
+    border-radius: 10px;
+    padding: 20px 70px;
+}
+
+.shop-btn:hover{
+    background: #8A8A8A;
+    transition: ease-in-out 0.7s;
+}
+
+.shop-btn a{
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.shop-btn a:hover{
+    
+    color: rgb(0, 0, 0);
+}
+
+.cart-btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
+
+.arrow{
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    padding: 5px 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: black;
+}
+
+.arrow svg{
+    fill: white;
+}
+
+.brands{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.brands img{
+    width: 1200px;
+}
+
+
+.Products{
+    width: 70%;
+    min-height: 100vh;
+    margin: auto;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.new-arrivals{
+    text-align: center;
+}
+
+.new-arrivals h1{
+    font-size: 46px;
+    font-family: "Volkhov", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20px;
+    color: #484848;
+}
+
+.new-arrivals p{
+    font-size: 16px;
+    color: #8A8A8A;
+}
+
+.fashion-btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.fashion-btn .btn{
+    background: #FAFAFA;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.fashion-btn .btn:hover{
+    text-decoration: underline;
+}
+
+.fashion-btn .btn a{
+    text-decoration: none;
+    color: #8A8A8A;
+}
+
+.fashion-btn .active2{
+    text-decoration: underline black;
+}
+
+.product-cart{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.product-cart .sells{
+    width: 386px;
+    height: 500px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.showmore-btn{
+    background: white;
+    color: black;
+    align-self: center;
+    padding: 10px 30px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.showmore-btn:hover{
+    background: black;
+    color: white;
+    transition: ease-in-out 0.5s;
+}
+
+
+
+
+.product-cart .sells img{
+    width: 250px;
+    height: 220px;
+    align-self: center;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.product-cart .sells div h1{
+    text-align: center;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #484848;
+}
+
+.product-cart .sells div h5{
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #8A8A8A;
+}
+
+.product-cart .sells p{
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #484848;
+}
+
+.product-cart .sells h4{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #484848;
+}
+
+.product-cart .sells a{
+    text-decoration: none;
+}
+
+.View-btn{
+    
+    background: black;
+    color: white;
+    padding: 15px 50px;
+    outline: none;
+    border: 1px;
+    border-radius: 10px;
+    margin: 60px 0;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.View-btn:hover{
+    background: white;
+    color: black;
+    transition: ease-in-out 0.6s;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.menu-btn{
+    display: none;
+}
+
+
+
+@media screen and (max-width:1400px){
+    .page-hdr h2{
+        font-size: 50px;
+        position: absolute;
+        top: 50px;
+    }
+    
+    .page-hdr h3{
+        font-size: 110px;
+        position: absolute;
+        top: 80px;
+        
+    }
+}
+
+@media screen and (max-width:1200px) {
+    header{
+        width: 100%;
+        height: 40vh;
+        margin: 10px 0;
+    }
+
+    .menu-btn{
+        display: block;
+        cursor: pointer;
+    }
+    
+
+    .hdr-container{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left-rightpics{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 70px;
+    }
+
+    .left-rightpics img{
+        margin-top: 40px;
+        width: 180px;
+        height: 320px;
+       
+    }
+    
+    .page-hdr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .page-hdr h2{
+        font-size: 30px;
+        position: absolute;
+        top: 50px;
+    }
+    
+    .page-hdr h3{
+        font-size: 80px;
+        position: absolute;
+        top: 80px;
+        
+    }
+    
+    .page-hdr h4{
+        font-size: 20px;
+        position: absolute;
+        top: 240px;
+    }
+    
+    .shop-btn{
+        padding: 10px 30px;
+    }
+    
+    .shop-btn a{
+        font-size: 12px;
+    }
+
+    .brands{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 50px;        
+    }
+
+    .brands img{
+        
+        margin-top: 150px;
+       width: 600px;
+       
+    }
+
+    .Products{
+        width: 100%;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .new-arrivals{
+        text-align: center;
+    }
+    
+    .new-arrivals h1{
+        font-size: 46px;
+        font-family: "Volkhov", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #484848;
+    }
+    
+    .new-arrivals p{
+        font-size: 14px;
+        color: #8A8A8A;
+    }
+    
+    .fashion-btn{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    .fashion-btn .btn{
+        background: #FAFAFA;
+        outline: none;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        padding: 5px 15px;
+        margin: 0 10px;
+    }
+    
+    .fashion-btn .btn a{
+        text-decoration: none;
+        color: #8A8A8A;
+        font-size: 10px;
+    }
+    
+    
+    .product-cart{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 30px;
+        margin-top: 80px;
+    }
+    
+    .product-cart .sells{
+        width: 300px;
+        height: 400px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-evenly;
+        padding: 10px 25px;
+        cursor: pointer;
+    }
+    
+    .product-cart .sells img{
+        width: 220px;
+        height: 180px;
+        align-self: center;
+        border-radius: 10px;
+    }
+    
+    .product-cart .sells div h1{
+        text-align: center;
+        font-size: 14px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #484848;
+    }
+    
+    .product-cart .sells div h5{
+        font-size: 12px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #8A8A8A;
+    }
+    
+    .product-cart .sells p{
+        font-size: 12px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #484848;
+    }
+    
+    .product-cart .sells h4{
+        font-size: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #484848;
+    }
+    
+    .View-btn{
+        
+        background: black;
+        color: white;
+        padding: 15px 50px;
+        outline: none;
+        border: 1px;
+        border-radius: 10px;
+        margin-top: 60px;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    
+}

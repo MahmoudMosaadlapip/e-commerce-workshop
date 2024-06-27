@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+body{
+   overflow-x: hidden;
+}
+
+header{
+    background: white;
+    width: 70%;
+    height: 60vh;
+    margin: auto;
+    margin-top: 70px;
+}
+
+nav{
+    width: 100%;
+    height: 56px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo:hover{
+    cursor: pointer;
+}
+
+.nav-logo h1{
+    font-family: "Volkhov", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 52px;
+    color: #484848;
+}
+
+.nav-links{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 70px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.active{
+    background: black;
+    color: white !important;
+    padding: 10px 30px;
+    outline: none;
+    border-radius: 10px;
+}
+
+.nav-links a:hover{
+    transform: translate(1px);
+    text-decoration: underline #8A8A8A;
+    transition: ease-in-out 0.7s;
+}
+
+.btn-logo{
+    background: black;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px 20px;
+}
+
+.btn-logo a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.btn-logo:hover{
+    background: white;
+    transition: ease-in-out 0.3s;
+}
+
+.btn-logo a:hover{
+    color: black;
+}
+
+@media screen and (max-width:1200px) {
+     
+    .nav-links{
+        width: 100vw;
+        height: 40vh;
+        background: #8A8A8A;
+        z-index: 1000;
+        position: absolute;
+        top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        display: none;
+    }
+
+    .shownav{
+        display: flex;
+    }
+
+    nav{
+        width: 100vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 30px;
+        
+    }
+}
